@@ -3,6 +3,7 @@ class Dado{
   
   public void display(){
     fill(#ED7A22);
+    strokeWeight(2);
     rect(this.posicion.x, this.posicion.y, 150,150);
   }
   
