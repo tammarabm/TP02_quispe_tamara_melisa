@@ -8,8 +8,8 @@ class Tablero extends GameObject{
     this.alto=alto;
     this.posicion=posicion;
   }
-  
-  public void dibujarTablero(){
+  @Override
+  public void display(){
     fill(#568EE5);
     rectMode(CENTER);
     rect(this.posicion.x, this.posicion.y, this.ancho,this.alto);

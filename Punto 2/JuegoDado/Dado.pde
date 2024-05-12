@@ -2,6 +2,7 @@ class Dado extends GameObject{
   //private PVector posicion;
   private int valorDado;
   
+  @Override
   public void display(){
     fill(#ED7A22);
     strokeWeight(2);
