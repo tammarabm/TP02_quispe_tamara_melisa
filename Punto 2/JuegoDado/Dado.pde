@@ -1,5 +1,6 @@
-class Dado{
-  private PVector posicion;
+class Dado extends GameObject{
+  //private PVector posicion;
+  private int valorDado;
   
   public void display(){
     fill(#ED7A22);

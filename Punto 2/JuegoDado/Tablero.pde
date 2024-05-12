@@ -1,5 +1,5 @@
-class Tablero{
-  private PVector posicion;
+class Tablero extends GameObject{
+  //private PVector posicion;
   private int alto;
   private int ancho; 
   
