@@ -9,6 +9,10 @@ class Dado extends GameObject{
     rect(this.posicion.x, this.posicion.y, 150,150);
   }
   
+  public void generarValor(){
+    
+  }
+  
   public void setPosicion (PVector posicion){
     this.posicion=posicion;
   
