@@ -21,6 +21,13 @@ class Rana extends GameObject {
     this.velocidad=velocidad;
   }
   
+  public void setPuntaje(int puntaje){
+    this.puntaje= puntaje;
+  
+  }
+  public void setVida(int cantidadVida){
+    this.cantidadVida=cantidadVida;
+  }
   
  
   
